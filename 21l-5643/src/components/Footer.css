@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+.footer {
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer ul li a {
+    color: #ff5722;
+    text-decoration: none;
+  }
+  

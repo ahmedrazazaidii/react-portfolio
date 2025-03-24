@@ -1,0 +1,33 @@
+/* src/components/Contact.css */
+.contact-section {
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-section button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .success-msg {
+    color: green;
+    margin-top: 1rem;
+  }
+  

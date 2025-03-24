@@ -1,0 +1,22 @@
+/* src/components/HeroSection.css */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../assets/anime-erwin-smith.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.cta-btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+}
